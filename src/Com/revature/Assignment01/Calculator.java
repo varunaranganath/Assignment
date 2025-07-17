@@ -18,10 +18,10 @@ public class Calculator {
     }
     public static void main(String[] args) {
         Calculator c=new Calculator();
-        System.out.println(c.add());
-        System.out.println(c.div());
-        System.out.println(c.mul());
-        System.out.println(c.sub());
+        System.out.println("add:"+c.add());
+        System.out.println("division:"+c.div());
+        System.out.println("multiplication:"+c.mul());
+        System.out.println("Subtraction:"+c.sub());
     }
 
 }

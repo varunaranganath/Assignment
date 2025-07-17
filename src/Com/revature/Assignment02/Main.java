@@ -4,9 +4,9 @@ public class Main
 {
     public static void main(String[] args) {
         Calc c=new Calc();
-        System.out.println(c.add());
-        System.out.println(c.sub());
-        System.out.println(c.mul());
-        System.out.println(c.div());
+        System.out.println("add:"+c.add());
+        System.out.println("sub:"+c.sub());
+        System.out.println("mul:"+c.mul());
+        System.out.println("div:"+c.div());
     }
 }
