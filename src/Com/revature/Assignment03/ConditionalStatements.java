@@ -1,6 +1,6 @@
 package Com.revature.Assignment03;
 
-public class Example {
+public class ConditionalStatements {
     int a = 10;
     int b = 1;
     int c = 29;
@@ -78,7 +78,7 @@ public class Example {
     }
 
     public static void main(String[] args) {
-        Example e = new Example();
+        ConditionalStatements e = new ConditionalStatements();
 
         System.out.println("if condition: " + e.condition_if());
         System.out.println("else-if condition: " + e.else_if_condition());
